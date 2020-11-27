@@ -83,6 +83,7 @@
 
                 function getPosts () {
                     $scope.postList = [];
+                    $scope.test = [];
                     $http({
                         method: 'GET',
                         url: baseUrl + 'GetPosts/'
